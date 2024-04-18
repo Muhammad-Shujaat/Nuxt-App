@@ -5,7 +5,7 @@
             <p class="text-xs font-bold uppercase text-center text-red" v-if="title">
                 {{ title }}
             </p>
-            <p class="text-black text-base font-bold w-full max-w-md" v-if="text">{{ text }}</p>
+            <p class="text-black text-base font-bold w-full max-w-md text-center" v-if="text">{{ text }}</p>
         </div>
 
 
