@@ -11,8 +11,6 @@
 
                 <ArticleCard v-for="(card, i) in cards" :key="i" :img="card.img" :text="card.text"
                     :title="card.title" />
-
-
             </div>
             <!-- sponsor card  -->
             <div class="w-full">
